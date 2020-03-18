@@ -103,7 +103,7 @@ Len:[12]
 * [**_write.c**](./_write.c): The function will print a string to stdout.
 * [**assign_buffer.c**](./assign_buffer.c): Is the funtion thet creates a buffer.
 * [**function_opc.c**](./function_opc.c): This file contains the functions that the _printf will develop.
-* [**str_concat.c**](./str_concat.c): This function will concatenate two strings.
+* [**str_concat.c**](./str_concat.c): This function will concatenate two strings
 * [**validation_and_return.c**](./validation_and_return.c): The function in this file, will produce the output according to the format.
 
 # Authors & Contact Information
