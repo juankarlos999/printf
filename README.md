@@ -1,7 +1,7 @@
 ![Holberton logo 2](https://www.holbertonschool.com/holberton-logo.png)
 # Printf Project
 
-This repository, contains the files for the Printf Project of Holberton School. The objective of this project is to make our own printf function. 
+This repository contains the files for the Printf Project of Holberton School. The objective of this project is to make our own printf function. 
 
 # Requirements
 
