@@ -4,7 +4,7 @@
  * @argv: is a va_list
  * @str: copy of format
  * @position: position inside array for concatenate.
- * Return: position plus one.
+ * Return: position plus one
  */
 int process_char(va_list argv, char *str, int position)
 {
