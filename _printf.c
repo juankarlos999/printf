@@ -18,6 +18,14 @@ int _printf(const char *format, ...)
 		return (0);
 	while (format[size] != '\0')
 		size++;
+	if (size > 1024)
+	{
+		str_formatted = malloc(sizeof(char) * size);
+		if (str_formatted == NULL)
+			return (1);
+	}
+	else
+	str_formatted = assign_buffer();
 
 	str_formatted = assign_buffer();
 	for (i = 0; i < size; i++)
@@ -30,5 +38,5 @@ int _printf(const char *format, ...)
 	len = _strlen(str_formatted);
 	_write(str_formatted);
 	free(str_formatted);
-	return (len - 1);
+	return (len);
 }
