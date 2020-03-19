@@ -16,7 +16,7 @@ char *validation_and_return(va_list ap, char *s)
 	{"d", process_int, process_percen}, {"s", process_str, process_percen},
 	{"%", process_char, process_percen}, {NULL, NULL, NULL}};
 
-	str_aux = assign_buffer();
+	str_aux = malloc(sizeof(char) * _strlen(s));
 	while (s[aux1] != '\0')
 	{
 		if (s[aux1] == '%')
