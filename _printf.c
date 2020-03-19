@@ -27,7 +27,6 @@ int _printf(const char *format, ...)
 	else
 	str_formatted = assign_buffer();
 
-	str_formatted = assign_buffer();
 	for (i = 0; i < size; i++)
 		str_formatted[i] = format[i];
 	str_formatted[i] = '\0';
