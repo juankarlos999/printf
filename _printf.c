@@ -34,7 +34,7 @@ int _printf(const char *format, ...)
 
 	va_start(ap, format);
 	validation_and_return(ap, str_formatted);
-	va_end(ap);
+	va_end(ap);;
 	len = _strlen(str_formatted);
 	_write(str_formatted);
 	free(str_formatted);

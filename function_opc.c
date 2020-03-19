@@ -29,7 +29,7 @@ int process_str(va_list argv, char *s, int position)
 
 	str = va_arg(argv, char*);
 	if (str == NULL)
-		_write("(nil)");
+		return(position + 1);
 	else
 		_strcat(s, str);
 	return (_strlen(str) + position);
