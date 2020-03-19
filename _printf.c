@@ -30,5 +30,5 @@ int _printf(const char *format, ...)
 	len = _strlen(str_formatted);
 	_write(str_formatted);
 	free(str_formatted);
-	return (len);
+	return (len - 1);
 }
