@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 /**
- * struct opc - struct of data type opc
+ * struct opc - struct of data type opc.
  * @array: Arguments for analyze and formatted
  * @function_opc: Functions that print data edited
  * @function_opc2: Function that found different print argument
