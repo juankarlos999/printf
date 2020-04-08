@@ -97,7 +97,7 @@ void proce_number_4_digits(int number, char *array)
 }
 /**
  * proce_number_6_digits - receives a number for slice and print
- * @n: integer positive or negative
+ * @n: integer positive or negative.
  * @array: concatenate a number for print
  */
 void proce_number_6_digits(int n, char *array)
