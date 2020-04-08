@@ -2,7 +2,7 @@
 /**
  * _printf - function that produces output according to a format
  * @format:is a character string. The format string is composed of zero or
- * more directives
+ * more directives.
  * Return: the number of characters printed
  * (excluding the null byte used to end output to strings)
  */
@@ -26,11 +26,9 @@ int _printf(const char *format, ...)
 	}
 	else
 	str_formatted = assign_buffer();
-
 	for (i = 0; i < size; i++)
 		str_formatted[i] = format[i];
 	str_formatted[i] = '\0';
-
 	va_start(ap, format);
 	validation_and_return(ap, str_formatted);
 	va_end(ap);
