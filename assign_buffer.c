@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * assign_buffer - Function that create a buffer for strings allocating space
- * in memory dynamic
+ * in memory dynamic.
  * Return: pointer type char (Buffer)
  */
 char *assign_buffer(void)
